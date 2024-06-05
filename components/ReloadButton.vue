@@ -16,7 +16,7 @@
 <template>
   <button
     @click="handleClick()"
-    class="bg-primary-variant rounded-md p-2 font-bold text-white w-full md:w-80 md:text-xl md:p-4 flex gap-3 items-center"
+    class="bg-primary-variant rounded-md p-2 font-bold text-white w-fit md:w-80 md:text-xl md:p-4 flex gap-3 items-center"
   >
     <img
       src="@/assets/icons/reload.svg"
