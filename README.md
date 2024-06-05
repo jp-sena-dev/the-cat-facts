@@ -1,75 +1,39 @@
-# Nuxt 3 Minimal Starter
+# 🐱: [The Cat Facts](https://the-cat-facts-eight.vercel.app/)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+:wave: Boas vindas ao projeto! Desenvolvido em Vue.js, entregando uma experiência interativa e dinâmica com alegria. 
 
-## Setup
+![image](https://github.com/jp-sena-dev/the-cat-facts/assets/85967112/9e31e4de-f990-47c5-99a1-9f812b23beb6)
 
-Make sure to install the dependencies:
+>### [Visite a Aplicação](https://the-cat-facts-eight.vercel.app/)
 
+## :computer: Pré-requisitos
+
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="20" height="20"/> NodeJS
+- <img src="https://raw.githubusercontent.com/gurayyarar/NodeJsPackageManager/master/images/app.png" alt="package manager" width="20" height="20"/> Gerenciador de Pacotes para NodeJS (NPM ou Yarn)
+
+## :page_facing_up: The Cat Facts
+Para instalar o projeto, você precisará clonar o repositório para sua máquina local e instalar as dependências. Portanto, em sua linha de comando (CLI), utilize:
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+$ git clone git@github.com:jp-sena-dev/marketplace.git
+$ yarn
+# ou npm install
 ```
 
-## Development Server
+## :rocket: Iniciando o projeto
+Em sua CLI (Linha de comando), utilize:
+- `yarn start` or `npm start`;
 
-Start the development server on `http://localhost:3000`:
+## :hammer_and_wrench: Principais ferramentas e serviços
+- [vue.js](https://vuejs.org/);
+- [pinia](https://pinia.vuejs.org/)
 
-```bash
-# npm
-npm run dev
+<div align="center">
+  <a href="https://pt-br.reactjs.org/">
+    <img height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"/> 
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://pt-br.reactjs.org/">
+    <img height="100" width="100" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Pinialogo.svg"/> 
+  </a>
+</div>
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
